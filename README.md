@@ -3,6 +3,7 @@
 In this project, I aim to apply the data science and data engineering skills learned in the Udacity Data Science Nanoprogram (also Udacity Machine Learning Nanoprogram) to analyze the data collected in a study when different Starbucks offers were sent to customers. Starbucks sent individual offers to their rewards members to increase their purchases. In this study, through data processing and visualization, as well as machine learing models, I wish to answer the following two questions:  
 (1) Which offer type is most popular in term of how successful the offers were viewed and completed?  
 (2) Based on demographic features such as “age”, “income”, “membership_days”, and “gender”, can we predict whether a customer will view/complete all the offers we send to them?  
+You can find a [blog post](https://zhao-li-ucla.medium.com/who-is-the-best-target-of-starbucks-offers-92198f50ab2a) that I wrote about this project on Medium.  
 
 ## Content:
 - "Starbucks ETL.ipynb": the notebook for the first half of the project. Here I explored the data, processed them to handle the missing values and make the dataframes more convenient for future analysis and modeling, and visualized the data to answer question 1. Then the cleaned and merged data were saved (two individual SQL database for "BOGO offers" and "discount offers").
